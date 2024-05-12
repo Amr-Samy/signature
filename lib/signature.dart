@@ -292,7 +292,7 @@ class SignatureController extends ValueNotifier<List<Point>> {
   bool disabled;
 
   /// color of a signature line
-  final Color penColor;
+  Color penColor;
 
   /// boldness of a signature line
   final double penStrokeWidth;
