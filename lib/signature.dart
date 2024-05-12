@@ -295,7 +295,7 @@ class SignatureController extends ValueNotifier<List<Point>> {
   Color penColor;
 
   /// boldness of a signature line
-  final double penStrokeWidth;
+  double penStrokeWidth;
 
   /// shape of line ends
   final StrokeCap strokeCap;
@@ -307,7 +307,7 @@ class SignatureController extends ValueNotifier<List<Point>> {
   final Color? exportBackgroundColor;
 
   /// color of a ginature line to be used in exported png image
-  final Color? exportPenColor;
+  Color? exportPenColor;
 
   /// callback to notify when drawing has started
   VoidCallback? onDrawStart;
